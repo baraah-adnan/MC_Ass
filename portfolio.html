@@ -230,6 +230,16 @@
     </footer>
 </div>
     <!-- end footer-->
+         <script>
+        document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('mouseover', () => {
+        card.style.opacity = '0.7'; // Adjust transparency
+    });
+    card.addEventListener('mouseout', () => {
+        card.style.opacity = '1'; // Reset transparency
+    });
+});
+     </script>
 
 
 
